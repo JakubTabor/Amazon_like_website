@@ -90,7 +90,7 @@
   flex-shrink: 0;
 }
 
-.serach-icon {
+.search-icon {
   height: 22px;
   margin-left: 2px;
   margin-top: 3px;
@@ -103,7 +103,7 @@
   justify-content: end;
 }
 
-.oreder-link {
+.orders-link {
   color: white;
 }
 
