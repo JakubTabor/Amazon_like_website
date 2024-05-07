@@ -8,3 +8,5 @@
 
 # Then i pass the HTML for cart item and pass flexible values
 * Using DOM i move current order summary into JavaScript
+
+# Next i make for each product to choose its own delivery option
