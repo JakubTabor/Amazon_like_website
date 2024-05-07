@@ -4,3 +4,4 @@
 # So i create all the same features just like for amazon.js page
 * I import cart and products to create 2 loops 
 * One to get all products and its all data
+* And next to check if product id match the product from cart and save it inside a variable
