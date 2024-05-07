@@ -7,3 +7,4 @@
 * And next to check if product id match the product from cart and save it inside a variable
 
 # Then i pass the HTML for cart item and pass flexible values
+* Using DOM i move current order summary into JavaScript
