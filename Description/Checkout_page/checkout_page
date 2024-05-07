@@ -5,3 +5,5 @@
 * I import cart and products to create 2 loops 
 * One to get all products and its all data
 * And next to check if product id match the product from cart and save it inside a variable
+
+# Then i pass the HTML for cart item and pass flexible values
