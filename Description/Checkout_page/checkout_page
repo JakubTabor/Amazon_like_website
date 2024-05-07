@@ -11,3 +11,4 @@
 
 # Next i make for each product to choose its own delivery option
 * I gonna use radio selector and channge the name value to a different name in each product 
+* To do that i replace number of option to product id 
