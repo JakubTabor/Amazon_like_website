@@ -2,3 +2,4 @@
 * We can use id to seach for all other details of the product Normalizing the data 
 
 # So i create all the same features just like for amazon.js page
+* I import cart and products to create 2 loops 
