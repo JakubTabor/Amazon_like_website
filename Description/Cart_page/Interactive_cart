@@ -1,2 +1,3 @@
 # To make our delivery cart interactive, first we need to update deliveryOptionId in the cart array
+* First we need to know the product to update and delivery option that we choose
 
