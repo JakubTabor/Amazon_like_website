@@ -1,4 +1,5 @@
 # To make our delivery cart interactive, first we need to update deliveryOptionId in the cart array
 * First we need to know the product to update and delivery option that we choose
 * So i loop through the cart to find the product and update deliveryoptionId of that product 
+* I already have code that give me cart item that matches product id and save it inside a variable
 
