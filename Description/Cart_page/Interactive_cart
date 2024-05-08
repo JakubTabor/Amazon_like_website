@@ -4,3 +4,4 @@
 * I already have code that give me cart item that matches product id and save it inside a variable
 * And i update delivery option id property, now i can save it to local storage
 
+# And next i add event listeners to delivery buttons once i click them
