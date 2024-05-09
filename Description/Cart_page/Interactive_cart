@@ -8,3 +8,4 @@
 * I take product id and delivery option out of data to get access to it
 
 # And i can update the page, once we select delivery option
+* So once we select an option i need to rerun the code and re-generate the html
