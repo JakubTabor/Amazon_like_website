@@ -10,3 +10,4 @@
 # And i can update the page, once we select delivery option
 * So once we select an option i need to rerun the code and re-generate the html
 * To achieve that i put all this code inside a function 
+* And next instead of using DOM to update page directly i put this function after updating the date
