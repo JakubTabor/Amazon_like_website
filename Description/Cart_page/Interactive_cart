@@ -6,3 +6,5 @@
 
 # And next i add event listeners to delivery buttons once i click them
 * I take product id and delivery option out of data to get access to it
+
+# And i can update the page, once we select delivery option
