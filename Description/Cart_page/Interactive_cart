@@ -9,3 +9,4 @@
 
 # And i can update the page, once we select delivery option
 * So once we select an option i need to rerun the code and re-generate the html
+* To achieve that i put all this code inside a function 
