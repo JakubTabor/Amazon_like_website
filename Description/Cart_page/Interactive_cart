@@ -13,3 +13,4 @@
 * And next instead of using DOM to update page directly i put this function after updating the date
 
 # Inside renderOrderSummary function we can call itsetlf, so r-erun it, it is called recursion
+* It is usefull when function needs to re-run all of its code
