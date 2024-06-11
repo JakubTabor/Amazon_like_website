@@ -1,0 +1,14 @@
+# Inheritance is useful when we have a product and specific type or property of product
+* Inheritance feature allow one class to get all properties and methods from another class
+* The class from which another class inherit is called parent class
+* And class which inheritate is called child class 
+
+# So por example Cloathing will be specific type of Product class
+* To inherit all methods and properties we use extends (and name of class that we want to inherited from)
+
+# Inheritance let us reuse code between classes 
+* I gonna use it in the project to add size chart 
+* To avoid adding once again product details, such as id, image itd. we can use feature (super)
+* super call constructor of parent class 
+
+# If we don't create constructor in child class, it will run by default parent class constructor 
