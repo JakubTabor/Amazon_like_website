@@ -1,0 +1,22 @@
+# This type of programming is organizing our code into objects
+* We can use property called (this), it give us an object that contain certain function
+* I group all my functions inside an created object 
+
+# Object oriented programming is useful when we want to create multiply objects
+* We just need to copy of an object and introduce the changes
+
+# Instead of copy pasting we can write function to create objects
+* And to avoid that cart get the same date from same place in local storage
+* I set the getItem and setItem to contain the parameter, the key
+* I it local storage key, so the carts will load from different keys in local storage and get different data
+
+# Object oriented programmin has feature class, which is object generator
+* Each object that we generate from the class is called instance
+
+# We can also create constructor, wich let us run setup code after creating an object
+* And code inside constructor will run automatically
+
+# To avoid accidentally change of property, to avoid this class let us make property or method private
+* It can be acces only in the class, and to do it private we type #
+* So property withoud a # infront is called public property
+* And we can make method loadFromLocalStorage private by typing #
