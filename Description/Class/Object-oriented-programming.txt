@@ -1,5 +1,6 @@
 # This type of programming is organizing our code into objects
 * We can use property called (this), it give us an object that contain certain function
+* It point to an outher object, it let object access its own properties
 * I group all my functions inside an created object 
 
 # Object oriented programming is useful when we want to create multiply objects
