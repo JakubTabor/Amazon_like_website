@@ -12,3 +12,9 @@
 * super call constructor of parent class 
 
 # If we don't create constructor in child class, it will run by default parent class constructor 
+
+# We can use property called (this), it give us an object that contain certain function
+* It point to an outher object, it let object access its own properties
+* this has a special feature, which is: inside a function we can change this o whatever we want 
+* We use .call() and inside brackets we set a value  
+* The arrow function do not change the value of this
