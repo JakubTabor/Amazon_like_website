@@ -1,0 +1,18 @@
+# Promises are classes, so we create them using Promise() and give it function
+* It take a parameter (resolve), which is a function, that allow us to control when to go to the next step of the code
+* It is similar to jasmine done(), but promise create separate line/thread of code
+* And this 2 groups of code are running at the same time
+* It allow JavaScript to do multiply things at the same time
+
+# To add next step to the code we use .then() and pass function into it
+
+# To avoid multiple callbacks, which cause a lot of nesting we use promises
+* It let us flatten our code 
+* Inside .then() if we want to use resolve, to wait for some code to finish, we can return a new promise
+
+# We can pass value to resolve(), it will be saved inside .then() as an parameter
+* It let us share a value between two steps of a promise
+
+# Another feature is Promise.all(), it let us run multiply promises at the same time
+* And wait for all of them to finish
+* To do that we pass an array of promises to Promise.all()
