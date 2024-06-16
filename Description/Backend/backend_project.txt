@@ -10,3 +10,5 @@
 
 # The function that we provide to loadProducts function is called colback
 * So we are giving it a function to run/call in the future
+* And we do the same in checkout.js we save render order and payment summary inside parameter (fun)
+* Then we gonna call (fun) after we load the products 
