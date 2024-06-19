@@ -4,14 +4,20 @@ import {loadProducts, loadProductsFetch} from '../data/products.js';
 import {loadCart} from '../data/cart.js';
 
 async function loadPage() {
-  console.log('load page');
-  return 'value2';
-}
-loadPage().then((value) => {
-  console.log('next step');
-  console.log(value);
-});
+  await loadProductsFetch();
 
+  await new Promise((resolve) => {
+    loadCart(() => {
+      resolve();
+    });
+  });
+
+  renderOrderSummary();
+  renderPaymentSummary();
+}
+loadPage()
+
+/*
 Promise.all([
   loadProductsFetch(),
   new Promise( (resolve) => {
@@ -25,4 +31,34 @@ Promise.all([
   renderOrderSummary();
   renderPaymentSummary();
 });
+*/
 
+/*
+new Promise((resolve) => {
+  loadProducts( () => {
+    resolve('value1');
+  });
+
+}).then((value) => {
+  console.log(value);
+
+  return new Promise( (resolve) => {
+    loadCart(() => {
+      resolve();
+    });
+  });
+
+}).then(() => {
+  renderOrderSummary();
+  renderPaymentSummary();
+});
+*/
+
+/*
+loadProducts(() => {
+  loadCart( () => {
+    renderOrderSummary();
+    renderPaymentSummary();
+  });
+});
+*/
