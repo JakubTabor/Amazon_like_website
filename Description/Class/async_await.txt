@@ -1,0 +1,20 @@
+# Async await is shortcut for promises
+* async makes a function return a promise, so instead of writing Promise and adding resolve we just write async
+* And if we return some value from this function, it will be converted into resolve value
+* This value will be saved in parameter in the next step 
+
+# We use async because it let us use await 
+* And await let us wait for a promise to finish, before going to the next line 
+* Before code that creates a promise we write await, that let us write asynchronous code like normal code 
+
+# We can only use await when we are in async function 
+* Not i gonna do all steps using async await code, i recreate this process
+* First i load the products, then i load the cart and next i render the page
+
+# Using await it is much more simple, first i load the products and wait for it to finish
+* Then i load the cart and wait for it to finish 
+* And next i render rest of the code 
+
+# We have to remember that first we need to convert normal function into async function to use await
+* And if a promise resolve with a value in async function, it will be returned and we can save it in a variable
+* So before await we just write const value and it will be saved it that variable
