@@ -1,0 +1,26 @@
+# We can add to our http request an event listener (error)
+* This colback can get a parameter, which contain informations about an error
+* To handle errors in colbacks we set up separate colbacks for errors
+
+# To handle errors in promises we get two methods: .then() and .catch()
+* .catch() gets an parameter, which also contain informations about error
+
+# We also handle errors in async await we use try/catch
+* If any code inside try{} gets an error we can catch it
+* catch gets one parameter, which contain informations about an error
+* It will handle the error and run code inside catch
+
+# We don't need to use try/catch with async await, we can use it as well with normal code 
+* And whenever we get an error, it will skip the rest of the code 
+
+# Try/catch method is meant to handle unexpected errors
+* It mean that our code is correct, but something out of our control cause the error
+
+# To manually create an error in our code we use (throw)
+* It throws an error, that we are gonna catch later
+* Once we get this error, it gonna skip the rest of the code and goes straight to the (catch)
+* error value will be saved in catch parameter and run code inside catch 
+
+# We can also create errors in promises using throw 
+* But if we need to create error in the future we use second parameter of promise (reject)
+* reject() is a function which let us create an error in the future 
