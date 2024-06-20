@@ -12,3 +12,8 @@
 * So we are giving it a function to run/call in the future
 * And we do the same in checkout.js we save render order and payment summary inside parameter (fun)
 * Then we gonna call (fun) after we load the products 
+
+# I gonna make place order button in checkout.js interactive
+* Once we click it it will take our cart and turn it into an order
+* And i gonna use backend to create an order 
+* First i add event listener 
