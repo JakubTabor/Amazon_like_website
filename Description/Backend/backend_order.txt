@@ -1,0 +1,23 @@
+# I gonna make place order button in checkout.js interactive
+* Once we click it it will take our cart and turn it into an order
+* And i gonna use backend to create an order 
+* First i add event listener for place order buton
+
+# I specify that once we click it will send request to the backend
+* We need to send a data to the backend, which will be our cart
+* For that we use POST request and headers, which will be an object 
+* This header gives the backend more information about our request
+* We specify what type of data we are sending in our request
+* And body, which is actual data that we are sending, it will be cart array converted into JSON string
+
+# I need to use async await, to wait for the response to come back
+* And i save the responnse in a variable
+
+# Once i created an order i need to save it somewhere, so i create orders.js
+* First i create an array in which i gonna contain all of my orders
+* Then i create function for adding the orders to this array 
+* To add the most recent order at the top we use unshift(order)
+
+# I also add if there are some error with network it display a message
+* And after we create an order we go to the orders page using window.location
+* It let us control the URL at the top of the browser
