@@ -1,0 +1,13 @@
+# In order to finish the order page i need to generate the html, os first i delete order grid from page
+* Then i create orders.js and use function to load the page and products fetch
+* I use async function to await for the products fetch 
+
+# Then i create variable to store html of orders page 
+* I make forEach loop to set order time 
+* And i generate the HTML for orders page and i add flexible values to it 
+
+# Next i create function for products list 
+* I make forEach loop to get all products details for the order  
+* And generate HTML for products list using flexible values 
+
+# Finally i use document.querySelector to set newly created orders html in JavaScript
