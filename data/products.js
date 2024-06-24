@@ -3,13 +3,13 @@ import {formatCurrency} from '../scripts/utils/money.js';
 export function getProduct(productId) {
   let matchingProduct;
 
-    products.forEach( (product) => {
-      if (product.id === productId) {
-        matchingProduct = product;
-      }
-    });
+  products.forEach((product) => {
+    if (product.id === productId) {
+      matchingProduct = product;
+    }
+  });
 
-    return matchingProduct;
+  return matchingProduct;
 }
 
 class Product {
@@ -45,13 +45,14 @@ class Clothing extends Product {
 
   constructor(productDetails) {
     super(productDetails);
-    this.sizeChartLink = productDetails.sizeChartLink
+    this.sizeChartLink = productDetails.sizeChartLink;
   }
 
   extraInfoHTML() {
     return `
       <a href="${this.sizeChartLink}" target="_blank">
-      Size chart</a>
+        Size chart
+      </a>
     `;
   }
 }
@@ -72,17 +73,13 @@ export function loadProductsFetch() {
     });
 
     console.log('load products');
-  }).catch(() => {
+  }).catch((error) => {
     console.log('Unexpected error. Please try again later.');
   });
 
   return promise;
 }
-/*
-loadProductsFetch().then(() => {
-  console.log('next step');
-});
-*/
+
 export function loadProducts(fun) {
   const xhr = new XMLHttpRequest();
 
@@ -99,8 +96,8 @@ export function loadProducts(fun) {
     fun();
   });
 
-  xhr.addEventListener('error', () => {
-    console.log('unexpected error. Please try again later');
+  xhr.addEventListener('error', (error) => {
+    console.log('Unexpected error. Please try again later.');
   });
 
   xhr.open('GET', 'https://supersimplebackend.dev/products');
