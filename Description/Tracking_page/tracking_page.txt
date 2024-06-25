@@ -1,0 +1,12 @@
+# First i create function getOrder in orders.js
+* It will find the matching order by it id 
+
+# Next in scripts i create tracking.js page 
+* First i create load page function where i load the products fetch
+* And i create couple variables, which gonna help me get product and order id 
+* And then all information about this product
+* I also create forEach loop to get more details such as estimated delivery date
+
+# Then using JavaScript i generate HTML for tracking page with flexible values
+* And then i select using querySelector order-tracking class to become the already generated HTML code
+* Finally i use loadPage() function 
