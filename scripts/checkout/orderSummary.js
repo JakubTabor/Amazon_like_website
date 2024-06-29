@@ -10,19 +10,17 @@ export function renderOrderSummary() {
 
   let cartSummaryHTML = '';
 
-  cart.forEach( (cartItem) => {
+  cart.forEach((cartItem) => {
     const productId = cartItem.productId;
 
     const matchingProduct = getProduct(productId);
-
     const deliveryOptionId = cartItem.deliveryOptionId;
-
     const deliveryOption = getDeliveryOption(deliveryOptionId);
 
     const today = dayjs();
-    
     const deliveryDate = today.add(
-      deliveryOption.deliveryDays, 'days'
+      deliveryOption,
+      'days'
     );
     const dateString = deliveryDate.format(
       'dddd, MMMM D'
@@ -81,7 +79,7 @@ export function renderOrderSummary() {
   function deliveryOptionsHTML(matchingProduct, cartItem) {
     let html = '';
 
-    deliveryOptions.forEach( (deliveryOption) => {
+    deliveryOptions.forEach((deliveryOption) => {
       const today = dayjs();
       const deliveryDate = today.add(
         deliveryOption.deliveryDays, 'days'
