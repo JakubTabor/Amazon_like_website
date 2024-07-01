@@ -1,0 +1,9 @@
+# Now i gonna make the search bar functional
+* I start from creating two variables url and search, they will help me get the products i search for
+* And make the condition if there is a search, the words related to the product will return me all this products
+* It's more simple to just write one word and get all things related to it  
+
+# And i add the forEach loop for this all filtered products, to the part of HTML code generation
+
+# In final part i use querySelector to add the action once i click to search button
+* It will make search and give me the value (all searched products) on main page
