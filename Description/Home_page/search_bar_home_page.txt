@@ -7,3 +7,7 @@
 
 # In final part i use querySelector to add the action once i click to search button
 * It will make search and give me the value (all searched products) on main page
+
+# I also make it possible to search by using enter key
+* I add eventListener on keydown, that once the key is enter it make a search on given location
+* Which is search bar on home page 
