@@ -1,0 +1,11 @@
+# To create tracking progress i need dayjs
+* First i create variable for today date, then i save the order time in variable
+* And i create variable for delivery time 
+* With all that variables i can create percent progress variable 
+
+# Using that variable i can fill all progres labels in generate HTML section
+* I set three cases, of the progress in less than 50%
+* lesser of equal 50%, but less that 100 %
+* And if the progress is lesser or equal 100% 
+
+# In progress bar <div> i use style and insert the current percent progress
