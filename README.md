@@ -5,3 +5,4 @@
 
 
 # This project contain 4 pages: 
+![Home page(index)](https://github.com/JakubTabor/Amazon_like_website/tree/amazon_like_website/Description/Home_page)
