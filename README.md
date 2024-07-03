@@ -8,3 +8,4 @@
 # [Home page(index)](https://github.com/JakubTabor/Amazon_like_website/tree/amazon_like_website/Description/Home_page)
 # [Orders page](https://github.com/JakubTabor/Amazon_like_website/tree/amazon_like_website/Description/Orders_page)
 # [Checkout page](https://github.com/JakubTabor/Amazon_like_website/tree/amazon_like_website/Description/Checkout_page)
+# [Tracking page](https://github.com/JakubTabor/Amazon_like_website/tree/amazon_like_website/Description/Tracking_page)
