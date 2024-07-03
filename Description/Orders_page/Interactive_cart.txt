@@ -1,0 +1,22 @@
+# First i gonna loop through cart array	and add the quantity
+* All will be stored in a variable cartQuantity
+* And i put it on the page using DOM 
+
+# I gonna create delivery options by id 
+* In priceString i specify that if price is 0, we will display FREE
+* If price 0 is false we will display the price 
+
+# And i gonna combine the HTML together
+* So all results will be stored in html variable
+* I can delete the html for delivery option and run function delivery option to generate the html instead
+* And i access matchingProduct and cartItem variable by passing them to parameters
+* I also pass this parameters to our function in generate html part
+
+# To make the delivery options selectors checked if it matches the delivery option id that is saved in the cart
+* To achieve this i create variable isChecked to save the result
+* And i can insert this variable in generate html part, if it is checked i will get value 'checked' 
+* And if not i will get empty string
+
+# And i gonna make delivery date above the product to date that we selected in delivery option
+* I gonna use delivery option id, first i crete variable to store delivery options
+* And i loop through the delivery options and if the id is matching we save this inside a variable
