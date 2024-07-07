@@ -65,3 +65,19 @@
 # I also add if there are some error with network it display a message
 * And after we create an order we go to the orders page using window.location
 * It let us control the URL at the top of the browser
+
+#
+#
+#
+# [Url parameters]()
+
+# url parameters let us save data directly in the url
+* We can write some value directly in the url of the page and get this data out of url using JavaScript 
+* To do that we create in HTML file in the script tag URL() class
+* And inside we write the url that we want to get parameters from 
+* Then we use .getParams.get() property, inside we write the parameter that we want to get
+
+# url parameters let us save different data in each url
+* When we search for something in the browser, our search is saved as url parameter
+* If we seach for something else, it is saved and add as url parameter
+* And we can go back and forth between them 
