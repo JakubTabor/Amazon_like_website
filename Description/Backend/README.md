@@ -12,3 +12,25 @@
 
 # The way to wait for the response to come back we use .addEventListener()
 * I will allow us to get the response after it is loaded   
+
+# [Backend in project]()
+
+# Now instead of using file to load the product i gonna use backend
+* I gonna use function to load that products 
+* The response is JSON, so we use JSON.parse to convert it to JS array
+* And it become our products variable, now we can convert it into a class
+
+# But we need to remember, that we need to load the response and then run that function
+* First we load the products, using products rendering grid as a parameter of loadProducts function
+* So i specify the parameter (fun) that we can pass to the loadProducts function
+* And that run the function  
+
+# The function that we provide to loadProducts function is called colback
+* So we are giving it a function to run/call in the future
+* And we do the same in checkout.js we save render order and payment summary inside parameter (fun)
+* Then we gonna call (fun) after we load the products 
+
+# I gonna make place order button in checkout.js interactive
+* Once we click it it will take our cart and turn it into an order
+* And i gonna use backend to create an order 
+* First i add event listener 
