@@ -81,3 +81,22 @@
 * When we search for something in the browser, our search is saved as url parameter
 * If we seach for something else, it is saved and add as url parameter
 * And we can go back and forth between them 
+
+#
+#
+#
+# [HTTP request using Fetch]()
+
+# Fetch is better way to make HTTP requests, because it is simpler
+* XMLHttpRequest use colback for request to the backend
+* fetch() use promise to make requests
+
+# To make request with a fetch we use built in function fetch()
+* It make HTTP request and default version of request in GET, we just need to pass url
+
+# We can add another step to that promise using .then() and the response will be saved in parameter
+* To get the data from the product from response we use .json()
+* But .json() is asynchronous, it returns a promise, to wait for the promise to finish, inside .then() we can return another promise
+* When we return a promise, it will wait for that promise to finish before go to the next step
+
+# Whats also good, that it return is already converted json string into an array of products
